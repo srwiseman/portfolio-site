@@ -15,10 +15,17 @@
     opacity: 1;
   }
 }
+ul {
+  padding: 0;
+  list-style-type: none;
+}
 
 body {
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
+}
+html {
+	margin: 0;
 }
 .parent {
 	height: 100%;
@@ -66,15 +73,27 @@ body {
 .name {
 	color: white;
 	text-align: center;
-	font-size: 5rem;
+	font-size: 2rem;
 	opacity: 0;
 	animation: 1s ease-out 0s 1 fadeIn;
 	animation-fill-mode: forwards;
 	animation-delay: 2s;
 }
 
+.title {
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+	opacity: 0;
+	animation: 1s ease-out 0s 1 fadeIn;
+	animation-fill-mode: forwards;
+	animation-delay: 2.5s;
+}
+
 .content {
 	display: flex;
+	justify-content: space-around;
+	color: #9FB9BF;
 }
 
 .button-small{
@@ -110,4 +129,44 @@ body {
 	animation: 1s ease-out 0s 1 fadeIn;
 	animation-fill-mode: forwards;
 	animation-delay: 2s;
+}
+
+.contactButton {
+	text-align: center;
+    opacity: 0;
+	animation: 1s ease-out 0s 1 fadeIn;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+.work {
+	text-align: center;
+}
+
+.skills {
+	text-align: center;
+	background-color: #555;
+	color: white;
+}
+
+.skills p{
+	font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.about-me {
+	text-align: center;
+	width:75%;
+	margin: auto;
+}
+
+.about-me p {
+	font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.flex-content {
+	display:flex;
+	justify-content: space-around;
 }
