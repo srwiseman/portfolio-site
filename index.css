@@ -60,14 +60,6 @@ html {
 	text-align: right;
 }
 
-.pic {
-	text-align: center;
-	opacity: 0;
-	animation: 1s ease-out 0s 1 fadeIn;
-	animation-fill-mode: forwards;
-	animation-delay: 1.5s;
-}
-
 .name {
 	color: white;
 	text-align: center;
@@ -92,6 +84,12 @@ html {
 	display: flex;
 	justify-content: space-around;
 	color: #9FB9BF;
+	width: 90%;
+	margin: auto;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .button-small{
@@ -137,20 +135,29 @@ html {
 	animation-delay: 3s;
 }
 
-.work {
-	text-align: center;
-}
-
-.skills {
+.card {
 	text-align: center;
 	background-color: #555;
 	color: white;
-}
-
-.skills p{
-	font-size: 1.5rem;
+	width: 100%;
+	padding: 10px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.card h1{
+	font-weight: normal;
+}
+
+.card h2{
+	font-weight: normal;
+	color: #fdcb6e;
+}
+
+.card-middle {
+	border-left: solid;
+	border-right: solid;
+}
+
 
 
 .about-me {
@@ -165,11 +172,6 @@ html {
 .about-me p {
 	font-size: 1.2rem;
 	font-family: 'Open Sans', sans-serif;
-}
-
-.flex-content {
-	display:flex;
-	justify-content: space-around;
 }
 
 .name-title {
