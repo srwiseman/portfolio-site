@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "A website for my portfolio\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C soi\u001bsimple website for my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srwiseman/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srwiseman/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/srwiseman/portfolio-site#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
