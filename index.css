@@ -37,13 +37,13 @@ html {
 
 .item {
 	width: 50%;
-	background-color: #9FB9BF;
+	background-color: #555;
 	animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
 .item2 {
 	width: 50%;
-	background-color: #9FB9BF;
+	background-color: #555;
 	transform: translateY(-100%);
 	animation: 1s ease-out 0s 1 slideInFromTop;
 	animation-delay: 0.2s;
@@ -52,7 +52,7 @@ html {
 
 .item3 {
 	width: 50%;
-	background-color: #9FB9BF;
+	background-color: #555;
 	transform: translateY(-100%);
 	animation: 1s ease-out 0s 1 slideInFromTop;
 	animation-delay: 0.4s;
